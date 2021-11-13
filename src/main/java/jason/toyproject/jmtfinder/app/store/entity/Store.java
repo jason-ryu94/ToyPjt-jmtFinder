@@ -8,7 +8,7 @@ public class Store {
 
 
     @Id
-    private String Id;
+    private String storeId;
 
     private String storeCd;
 
