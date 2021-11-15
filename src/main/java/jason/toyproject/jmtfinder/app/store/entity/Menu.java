@@ -1,12 +1,9 @@
 package jason.toyproject.jmtfinder.app.store.entity;
 
 import javax.persistence.Entity;
-import javax.persistence.Id;
 
 @Entity
-public class StoreMenu {
+public class Menu {
 
-    @Id
-    private String storeMenuId;
 
 }
