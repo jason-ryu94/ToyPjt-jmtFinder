@@ -16,8 +16,8 @@ public class MenuEntity {
     @Id @GeneratedValue
     private String menuId;
 
-    @OneToMany(mappedBy = "storeId")
-    private String StoreId;
+    @ManyToOne
+    private StoreEntity Store;
 
 
 }
