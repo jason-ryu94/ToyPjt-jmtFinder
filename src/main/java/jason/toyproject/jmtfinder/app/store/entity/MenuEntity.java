@@ -19,5 +19,10 @@ public class MenuEntity {
     @ManyToOne
     private StoreEntity Store;
 
+    private String menuName;
+
+    private String menuCategory;
+
+    private String useYn;
 
 }
