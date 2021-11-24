@@ -19,10 +19,16 @@ public class MenuEntity {
     @ManyToOne
     private StoreEntity Store;
 
-    private String menuName;
+    private String menuNm;
 
-    private String menuCategory;
+    private String categoryCd;
+
+    private String categoryNm;
 
     private String useYn;
+
+    private String imgUrl;
+
+
 
 }

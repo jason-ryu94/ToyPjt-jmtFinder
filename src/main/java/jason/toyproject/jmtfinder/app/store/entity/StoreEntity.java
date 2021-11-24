@@ -27,4 +27,6 @@ public class StoreEntity {
     private List<MenuEntity> menus;
 
 
+
+
 }
