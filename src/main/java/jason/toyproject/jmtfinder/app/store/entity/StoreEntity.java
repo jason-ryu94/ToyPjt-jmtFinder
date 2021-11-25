@@ -5,10 +5,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -23,8 +20,18 @@ public class StoreEntity {
 
     private String storeCd;
 
+    private String sotreNm;
+
     @OneToMany
     private List<MenuEntity> menus;
+
+    @OneToOne
+    private Address address;
+
+    @OneToOne
+    private BusinessHour businessHour;
+
+
 
 
 
