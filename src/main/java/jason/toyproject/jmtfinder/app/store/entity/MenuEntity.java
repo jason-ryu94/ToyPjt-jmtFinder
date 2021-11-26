@@ -21,6 +21,8 @@ public class MenuEntity {
 
     private String menuNm;
 
+    private String price;
+
     private String categoryCd;
 
     private String categoryNm;

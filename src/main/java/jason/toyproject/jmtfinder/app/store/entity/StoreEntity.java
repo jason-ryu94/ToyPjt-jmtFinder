@@ -20,7 +20,7 @@ public class StoreEntity {
 
     private String storeCd;
 
-    private String sotreNm;
+    private String storeNm;
 
     @OneToMany
     private List<MenuEntity> menus;
@@ -30,6 +30,9 @@ public class StoreEntity {
 
     @OneToOne
     private BusinessHour businessHour;
+
+    private String storeImgUrl;
+
 
 
 
