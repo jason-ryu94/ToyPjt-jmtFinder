@@ -18,7 +18,7 @@ public class StoreEntity {
     @Id @GeneratedValue
     private String storeId;
 
-    private String storeCd;
+    private String storeCategoryCd;
 
     private String storeNm;
 
@@ -33,7 +33,7 @@ public class StoreEntity {
 
     private String storeImgUrl;
 
-
+    private String storeCategoryNm;
 
 
 
