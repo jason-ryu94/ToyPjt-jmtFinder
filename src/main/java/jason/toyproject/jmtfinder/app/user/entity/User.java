@@ -7,9 +7,12 @@ import javax.persistence.Id;
 public class User {
 
     @Id
-    private String userid;
-
     private String userId;
+
+    private String userEmail;
+
+    private String userNm;
+
 
     private String userPw;
 
